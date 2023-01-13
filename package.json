@@ -1,0 +1,32 @@
+{
+  "name": "juggling",
+  "version": "0.0.1",
+  "description": "framework",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b1i/juggling.git"
+  },
+  "author": "b1i",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.3",
+    "jest": "^29.3.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "bugs": {
+    "url": "https://github.com/b1i/juggling/issues"
+  },
+  "homepage": "https://github.com/b1i/juggling#readme"
+}
